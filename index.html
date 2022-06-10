@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <script type="text/javascript">
+        (function(d, m){
+    
+        /*---------------- Kommunicate settings start ----------------*/
+    
+         var kommunicateSettings = {
+          "appId": "29f31cd7b4e4307e1643fc8fd6e292b81",  
+          "automaticChatOpenOnNavigation": true,
+          "popupWidget": true
+          /*
+          "onInit": function (){
+            // paste your code here
+          }
+          */
+          };
+    
+        /*----------------- Kommunicate settings end ------------------*/
+    
+         var s = document.createElement("script");
+          s.type = "text/javascript";
+          s.async = true;
+          s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+          var h = document.getElementsByTagName("head")[0];
+          h.appendChild(s);
+          window.kommunicate = m;
+          m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    </script> -->
+    <iframe style="border: none;" height="600px" width="400px"
+        src="https://widget.kommunicate.io/chat?appId=29f31cd7b4e4307e1643fc8fd6e292b81"
+        allow="microphone; geolocation;">
+    </iframe>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+        chat-icon="https:&#x2F;&#x2F;themisapp.info&#x2F;wp-content&#x2F;uploads&#x2F;2022&#x2F;05&#x2F;logo-300x97.png"
+        intent="WELCOME" chat-title="Themisapp-bot" agent-id="ac65233a-3613-4c24-b61e-2b226a617e09" language-code="en">
+    </df-messenger>
+</body>
+
+</html>
